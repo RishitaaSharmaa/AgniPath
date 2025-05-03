@@ -9,7 +9,7 @@
 Agnipath addresses this problem using a combination of **pathfinding algorithms** and **smart IoT infrastructure**:
 
 - 📍 **A*** Algorithm: Calculates the shortest and safest evacuation path, avoiding blocked or hazardous areas.
-- 📡 **BLE Sensors**: Deployed throughout the building to continuously monitor room occupancy, temperature, smoke, and accessibility.
+- 📡 **IOT Sensors**: Deployed throughout the building to continuously monitor room occupancy, temperature, smoke, and accessibility.
 - 📱 **Mobile & Wearable Integration**: Sends real-time evacuation instructions to smartphones and smartwatches via a dedicated app.
 - 🗺️ **Dynamic Route Mapping**: Continuously updates escape routes as the situation evolves, ensuring users are never directed into danger.
 
@@ -28,7 +28,7 @@ Agnipath addresses this problem using a combination of **pathfinding algorithms*
 
 ## 🧮 How It Works
 
-1. **Detection**: BLE sensors detect fire, smoke, heat, and obstacles.
+1. **Detection**: IOT sensors detect temperature, smoke, heat
 2. **Mapping**: The A* algorithm uses this data to calculate the safest possible route from the user's current location to the nearest safe exit.
 3. **Communication**: The optimal path is sent to the user's device with step-by-step instructions.
 4. **Re-evaluation**: The system continuously monitors the environment and updates the path if needed.
